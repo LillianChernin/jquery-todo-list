@@ -1,7 +1,16 @@
 console.log("JS is working!");
 console.log($("h1").text());
 
-$('button').click(() => {
+const deleteButton = "<button class=" + "delete" + ">Delete</button>";
+const completeButton = "<button class=" + "complete" + ">Completed?</button>";
+
+$('#addToDo').click(() => {
   let postText = $('input').val();
-  console.log(postText);
+  $('ol').prepend("<li>" + completeButton + " " + postText + " " + deleteButton + "</li>");
+  $('input').val("");
+})
+
+$('.delete').click(() => {
+  $(this).parent().remove();
+  console.log("delete button was clicked!");
 })
