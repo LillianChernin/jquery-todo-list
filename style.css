@@ -3,8 +3,13 @@
 img {
   height: 200px;
   width: 150px;
+  margin-top: 18px;
   border-radius: 50px;
-  border: 5px solid black;
+  -moz-box-shadow: 0 0 40px #ccc;
+  -webkit-box-shadow: 0 0 40px #ccc;
+  box-shadow: 0 0 40px #ccc;
+  opacity: 0.8;
+  border: 2px solid rgba(132, 133, 135, .5);
 }
 
 header {
@@ -16,12 +21,31 @@ header {
   font-family: 'Special Elite', cursive;
 }
 
+h1 {
+  border-top: 3px double #434647;
+  border-bottom: 3px double #434647;
+  padding: 18px 15px 15px 15px;
+  color: rgba(67, 70, 71, 1);
+}
+
 button {
   font-family: 'Special Elite', cursive;
+  font-size: 14px;
+  background-color: rgba(255, 251, 209, .7);
+  padding: 5px 3px 3px 3px;
+  border-radius: 3px;
+  color: rgba(67, 70, 71, 1);
 }
 input {
   font-family: 'Special Elite', cursive;
+  font-size: 14px;
+  padding: 5px 3px 3px 3px;
 }
+
+#addToDo {
+  background-color: rgba(155, 222, 247, .7);
+}
+
 
 #raised-platform {
   height: 500px;
