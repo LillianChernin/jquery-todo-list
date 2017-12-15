@@ -1,10 +1,41 @@
+
+
 img {
-  height: 20%;
-  width: 15%;
+  height: 200px;
+  width: 150px;
+  border-radius: 50px;
+  border: 5px solid black;
 }
 
 header {
   text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+#toDoList {
+  font-family: 'Special Elite', cursive;
+}
+
+button {
+  font-family: 'Special Elite', cursive;
+}
+input {
+  font-family: 'Special Elite', cursive;
+}
+
+#raised-platform {
+  height: 500px;
+  width: 300px;
+  -moz-box-shadow: 0 0 40px #ccc;
+  -webkit-box-shadow: 0 0 40px #ccc;
+  box-shadow: 0 0 40px #ccc;
+  padding: 25px;
+  margin-left: 40%;
+  border-radius: 70px;
+  background-color: rgba(255, 237, 201, .8);
+}
+body {
+  background-image: url("images/MB2-background.jpeg");
 }
 
 /*li {

@@ -1,10 +1,6 @@
-console.log("JS is working!");
-console.log($("h1").text());
 
 const deleteButton = "<button class=" + "delete" + ">X</button>";
-const completeButton = "<button class=" + "complete" + ">Complete</button>";
-
-
+const completeButton = "<button class=" + "complete" + ">Got'r done?</button>";
 
 
 $('#addToDo').click((event) => {
